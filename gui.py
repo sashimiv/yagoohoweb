@@ -15,7 +15,7 @@ def search_query():
         url = "https://search.yahoo.com/search?p=" + urlgets
         open_browser(url)
     else:
-        url = "https://yandex.ru/search/?lr=10735&text=" + urlgets
+        url = "https://yandex.ru/search/?text=" + urlgets
         open_browser(url)
 app = QApplication([])
 window = QWidget()
