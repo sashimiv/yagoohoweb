@@ -1,6 +1,5 @@
 import webbrowser
 import time
-from googlesearch import search
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QRadioButton, QPushButton, QVBoxLayout, QHBoxLayout
 def open_browser(url):
     webbrowser.open(url, new=2, autoraise=True)
