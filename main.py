@@ -1,19 +1,18 @@
 import webbrowser
 from googlesearch import search
 import time
-print("t.me/sashimiv")
-print()
+def open_browser(url):
+    webbrowser.open(url, new=2, autoraise=True)
+    time.sleep(5)
+print("t.me/sashimiv\n")
 urlgets = input("Введите запрос: ")
 service = input("Выберите сервис(google/yandex/yahoo): ")
 if service == "google":
     url = "https://www.google.com/search?q=" + urlgets
-    webbrowser.open(url, new=2, autoraise=True) 
-    time.sleep(5)   
+    open_browser(url)
 elif service == "yahoo":
     url = "https://search.yahoo.com/search?p=" + urlgets
-    webbrowser.open(url, new=2, autoraise=True)
-    time.sleep(5)
+    open_browser(url)
 else:
     url = "https://yandex.ru/search/?lr=10735&text=" + urlgets
-    webbrowser.open(url, new=2, autoraise=True)
-    time.sleep(5)
+    open_browser(url)
