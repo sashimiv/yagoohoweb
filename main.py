@@ -1,14 +1,14 @@
 #Консольный интерфейс устарел
 import webbrowser
 import time
-konsoleversion = "0.0.5"
+konsoleversion = "0.0.6"
 guiversion = "1.0.5"
 
 if konsoleversion == guiversion:
     #Пожалуйста, не запускайте программу если версии не совпадают
     def open_browser(url):
         webbrowser.open(url, new=2, autoraise=True)
-        time.sleep(5)
+        time.sleep(4)
     print("t.me/sashimiv\n")
     urlgets = input("Введите запрос: ")
     service = input("Выберите сервис(google/yandex/yahoo): ")
