@@ -2,8 +2,11 @@
 import webbrowser
 from googlesearch import search
 import time
-konsole = "2"
-if konsole == 1:
+konsoleversion = "0.0.5"
+guiversion = "1.0.5"
+
+if konsoleversion == guiversion:
+    #Пожалуйста, не запускайте программу если версии не совпадают
     def open_browser(url):
         webbrowser.open(url, new=2, autoraise=True)
         time.sleep(5)
