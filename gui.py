@@ -1,6 +1,6 @@
 import webbrowser
+
 import time
-from googlesearch import search
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QRadioButton, QPushButton, QVBoxLayout, QHBoxLayout
 def open_browser(url):
     webbrowser.open(url, new=2, autoraise=True)
@@ -18,8 +18,9 @@ def search_query():
         url = "https://duckduckgo.com/?q=" + urlgets
         open_browser(url)
     else:
-        url = "https://yandex.ru/search/text=" + urlgets
+        url = "https://www.bing.com/search?q=" + urlgets
         open_browser(url)
+
 app = QApplication([])
 window = QWidget()
 window.setWindowTitle("search by sashimiv")
@@ -29,8 +30,8 @@ service_label = QLabel("Выберите сервис:")
 google_rb = QRadioButton("Google")
 yahoo_rb = QRadioButton("Yahoo")
 duckduckgo_rb = QRadioButton("DuckDuckGo")
-yandex_rb = QRadioButton("Yandex")
-search_button = QPushButton("Поиск")
+bing_rb = QRadioButton("Bing")
+search_button = QPushButton("Поиск в ❤️internet❤️")
 layout = QVBoxLayout()
 layout.addWidget(query_label)
 layout.addWidget(query_entry)
@@ -38,7 +39,7 @@ layout.addWidget(service_label)
 layout.addWidget(google_rb)
 layout.addWidget(yahoo_rb)
 layout.addWidget(duckduckgo_rb)
-layout.addWidget(yandex_rb)
+layout.addWidget(bing_rb)
 button_layout = QHBoxLayout()
 button_layout.addWidget(search_button)
 layout.addLayout(button_layout)
@@ -48,7 +49,7 @@ service_var = "google"
 google_rb.toggled.connect(lambda: service_radio_button(google_rb))
 yahoo_rb.toggled.connect(lambda: service_radio_button(yahoo_rb))
 duckduckgo_rb.toggled.connect(lambda: service_radio_button(duckduckgo_rb))
-yandex_rb.toggled.connect(lambda: service_radio_button(yandex_rb))
+bing_rb.toggled.connect(lambda: service_radio_button(bing_rb))
 def service_radio_button(rb):
     global service_var
     if rb.text() == "Google":
@@ -58,7 +59,7 @@ def service_radio_button(rb):
     elif rb.text() == "DuckDuckGo":
         service_var = "duckduckgo"
     else:
-        service_var = "yandex"
+        service_var = ""
 search_button.clicked.connect(search_query)
 window.show()
 app.exec_()
