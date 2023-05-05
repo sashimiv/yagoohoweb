@@ -1,6 +1,5 @@
 #Консольный интерфейс устарел
 import webbrowser
-from googlesearch import search
 import time
 konsoleversion = "0.0.5"
 guiversion = "1.0.5"
