@@ -16,3 +16,5 @@
 черный - выбор сервиса(такие же как и в консольной версии)
 красный - кнопка для открытия поиска
 примечание: желательно сначала открыть любой браузер
+
+![GitHub](https://img.shields.io/github/license/sashimiv/yagoohoweb?style=for-the-badge)
