@@ -24,6 +24,16 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/sashimiv/yagoohoweb?style=for-the-badge)
 # Search-Pro
 Дополнение к yagoohoweb 
-
 позволяет намного легче использовать и настраивать переменные. обновляется вместе с GUI
+
+# Donate!
+RU
+
+Yoomoney Mir - 2202206183142806
+
+Yoomoney - 4100116513670741
+
+QIWI/MIR - SASHIMIV/2200 7302 3603 4233
+
+Sber - 2202206286042002 (Владимир Золототрубов)
 
