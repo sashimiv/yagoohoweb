@@ -10,5 +10,7 @@ bing = "https://www.bing.com/search?q="
 duckduckgo = "https://duckduckgo.com/?q="
 yahoo = "https://search.yahoo.com/search?p="
 google = "https://www.google.com/search?q="
+noneservice = ""
 url = input("Введите вашу ссылку")
+
 
