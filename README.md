@@ -10,7 +10,7 @@
 
 # GUI версия
 
-![изображение](https://user-images.githubusercontent.com/74048469/236207565-cc997181-1d57-4047-af3c-8462a0eaa753.png)
+#[изображение](https://user-images.githubusercontent.com/74048469/236207565-cc997181-1d57-4047-af3c-8462a0eaa753.png)
 
 Серый - поле для ввода запроса
 черный - выбор сервиса(такие же как и в консольной версии)
@@ -24,6 +24,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/sashimiv/yagoohoweb?style=for-the-badge)
 # Search-Pro
 Дополнение к yagoohoweb 
+
 позволяет намного легче использовать и настраивать переменные. обновляется вместе с GUI
 
 # Donate!
