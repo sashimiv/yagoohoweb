@@ -1,5 +1,5 @@
 import webbrowser
-
+from searchpro import servicesall, duckduckgo, bing, yahoo, google
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QRadioButton, QPushButton, QVBoxLayout, QHBoxLayout
 def open_browser(url):
@@ -9,16 +9,16 @@ def search_query():
     urlgets = query_entry.text()
     service = service_var
     if service == "google":
-        url = "https://www.google.com/search?q=" + urlgets
+        url = google + urlgets
         open_browser(url)
     elif service == "yahoo":
-        url = "https://search.yahoo.com/search?p=" + urlgets
+        url = yahoo + urlgets
         open_browser(url)
     elif service == "duckduckgo":
-        url = "https://duckduckgo.com/?q=" + urlgets
+        url = duckduckgo + urlgets
         open_browser(url)
     else:
-        url = "https://www.bing.com/search?q=" + urlgets
+        url = bing + urlgets
         open_browser(url)
 
 app = QApplication([])
