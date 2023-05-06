@@ -1,5 +1,5 @@
 konsolev = "0.0.6" 
-guiv = "1.0.5"
+guiv = "1.0.6"
 searchpro = "0.0.3"
 servicesall =  "Bing, " + "DuckDuckGo, " + "Yahoo, " + "Google"
 bing = "https://www.bing.com/search?q="
