@@ -1,5 +1,5 @@
 import webbrowser
-from searchpro import servicesall, duckduckgo, bing, yahoo, google
+from searchpro import servicesall, duckduckgo, bing, yahoo, google # Обязательно в одной директории с этим файлом должен быть файл searchpro.py (скачивайте отсюда)
 import time
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QRadioButton, QPushButton, QVBoxLayout, QHBoxLayout
 def open_browser(url):
