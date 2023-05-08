@@ -1,5 +1,5 @@
 # yagoohoweb ![GitHub](https://img.shields.io/badge/Telegram-%40sashimiv-blue?style=for-the-badge&logo=telegram)
-4 сервиса поиска, как кофе 4 в 1! (эхх, не 3 в 1)
+4 сервиса поиска, как кофе 4 в 1!
 # как использовать
 ![изображение](https://user-images.githubusercontent.com/74048469/235959596-ff7cc1b2-eebb-4d6a-a33b-74e0c940ddf8.png)
 серая часть - сам запрос
