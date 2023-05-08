@@ -1,7 +1,7 @@
 #Консольный интерфейс устарел
 import webbrowser
 import time
-konsoleversion = "0.0.6"
+konsoleversion = "0.1.0"
 guiversion = "1.0.5"
 
 if konsoleversion == guiversion:
@@ -22,4 +22,4 @@ if konsoleversion == guiversion:
         url = "https://yandex.ru/search/?lr=10735&text=" + urlgets
         open_browser(url)
 else:
-    print("Текущая версия программы не функционирует")
+    print("Версия устарела, ждите обновлений")
