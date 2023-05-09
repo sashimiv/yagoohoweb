@@ -1,4 +1,4 @@
-# yagoohoweb ![GitHub](https://img.shields.io/badge/Telegram-%40sashimiv-blue?style=for-the-badge&logo=telegram)
+# <img height="16" width="16" src="https://cdn.simpleicons.org/python" /> yagoohoweb ![GitHub](https://img.shields.io/badge/Telegram-%40sashimiv-blue?style=for-the-badge&logo=telegram)
 4 сервиса поиска, как кофе 4 в 1!
 # как использовать
 ![изображение](https://user-images.githubusercontent.com/74048469/235959596-ff7cc1b2-eebb-4d6a-a33b-74e0c940ddf8.png)
@@ -37,4 +37,18 @@ Yoomoney - 4100116513670741
 QIWI/MIR - SASHIMIV/2200 7302 3603 4233
 
 Sber - 2202206286042002 (Владимир Золототрубов)
+
+# что используется?
+
+Python <img height="16" width="16" src="https://cdn.simpleicons.org/python" /> + PyQT5 <img height="16" width="16" src="https://cdn.simpleicons.org/qt" /> + search-pro
+
+# Текущие версии:
+
+GUI: 1.1.5
+
+SearchPro: 0.0.7
+
+Konsole: 0.0.6
+
+
 
