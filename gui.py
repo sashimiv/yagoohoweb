@@ -1,12 +1,10 @@
 import webbrowser
-import time
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QRadioButton, QPushButton, QVBoxLayout, QHBoxLayout
 # импорт модуля searchpro
 # обязательно положите файл searchpro.py в ту же папку, что и этот файл
 import searchpro
 def open_browser(url):
     webbrowser.open(url, new=2, autoraise=True)
-    time.sleep(5)
 def search_query():
     urlgets = query_entry.text()
     service = service_var
