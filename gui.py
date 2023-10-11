@@ -1,3 +1,25 @@
+#                   _      _             _        
+#                  | |    (_)           (_)       
+#  ___   __ _  ___ | |__   _  _ __ ___   _ __   __
+# / __| / _` |/ __|| '_ \ | || '_ ` _ \ | |\ \ / /
+# \__ \| (_| |\__ \| | | || || | | | | || | \ V / 
+# |___/ \__,_||___/|_| |_||_||_| |_| |_||_|  \_/  
+#                   _  _               
+#                  | |(_)              
+#   ___   ___    __| | _  _ __    __ _ 
+#  / __| / _ \  / _` || || '_ \  / _` |
+# | (__ | (_) || (_| || || | | || (_| |
+#  \___| \___/  \__,_||_||_| |_| \__, |
+#                                 __/ |
+#                                |___/ 
+# 
+# Created from russia with <3
+# Code is licensed under " MIT " unless otherwise specified.
+# https://opensource.org/license/mit/
+# (c) t.me/sashimiv (https://github.com/sashimiv)
+
+
+
 import webbrowser
 from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QRadioButton, QPushButton, QVBoxLayout, QHBoxLayout 
 import searchpro # выкачайте файл searchpro.py с github  и положите его в одну папку с этой программой
