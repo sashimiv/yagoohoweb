@@ -1,12 +1,5 @@
 # <img height="16" width="16" src="https://cdn.simpleicons.org/python" /> yagoohoweb ![GitHub](https://img.shields.io/badge/Telegram-%40sashimiv-blue?style=for-the-badge&logo=telegram)
-4 сервиса поиска, как кофе 4 в 1!
-# как использовать
-![изображение](https://user-images.githubusercontent.com/74048469/235959596-ff7cc1b2-eebb-4d6a-a33b-74e0c940ddf8.png)
-серая часть - сам запрос
-чёрная - текст, он не идет в поиск
-![изображение](https://user-images.githubusercontent.com/74048469/235959895-0690226e-f608-47e9-94af-3c65f44b2427.png)
-сервисы: google bing yahoo duckduckgo, для выбора просто напишите название сервиса, пример: bing
-После программа автоматически откроет ссылку с запросом
+6 сервисов поиска в одной программе!
 
 # GUI версия
 
@@ -40,15 +33,12 @@ Sber - 2202206286042002 (Владимир Золототрубов)
 
 # что используется?
 
-Python <img height="16" width="16" src="https://cdn.simpleicons.org/python" /> + PyQT5 <img height="16" width="16" src="https://cdn.simpleicons.org/qt" /> + search-pro
+Python <img height="16" width="16" src="https://cdn.simpleicons.org/python" /> + PyQT5 <img height="16" width="16" src="https://cdn.simpleicons.org/qt" />
 
 # Текущие версии:
 
-GUI: 1.1.5
+GUI: 1.2.0
 
-SearchPro: 0.0.7
-
-Konsole: 0.0.6
 
 
 
