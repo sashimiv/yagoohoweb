@@ -56,7 +56,7 @@ duckduckgo_rb = QRadioButton("DuckDuckGo")
 bing_rb = QRadioButton("Bing")
 baidu_rb = QRadioButton("Baidu")
 yandex_rb = QRadioButton("Yandex")
-search_button = QPushButton("Поиск в ❤️internet❤️")
+search_button = QPushButton("Поиск в internet")
 
 layout = QVBoxLayout()
 layout.addWidget(query_label)
